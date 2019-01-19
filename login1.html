@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <body>
+        <div class="mainLogin">
+            <div class="loginHeader">
+                Login
+            </div>
+            <label for="emailid">
+                Email: </label>
+               <input type="text" id="emailid" placeholder="Enter your Email" name="email" /><br>
+               <label for="Password">
+                Password:</label> <input type="password" id="psw" placeholder="Enter your Password" name="password" /><br>
+            <div class="loginremember">
+                <input type="checkbox" id="check" name="chk" />Remember me
+                <input type="submit" class="subbtn1" value="Login" id="loginsubmit" />
+                <input type="submit" class="subbtn2" value="Signup" id="signupsubmit" onclick="location.href = 'signup.html';"/>
+                <div class="btn3">
+                    <a href="/users/google-oauth/">
+                        <div class="btn4">
+                            <img width="20px" alt="Google"; Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"/>
+                        </div>
+                        Login with Google
+                    </a>
+               </div>
+            </div>        
+        </div>
+    </body>
+</head>
+</html>
